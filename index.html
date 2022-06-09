@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume</title>
+  <!-- google font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <!-- w3 scool -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Latest compiled and minified CSS -->
@@ -21,10 +23,10 @@
   <nav class="sidebar collapse  animate-left" id="mySidebar"><br>
     <div class="w3-container">
       <a href="#" onclick="w3_close()" class="hide-large right jumbo padding-8-16" title="close menu">
-        <i class="fa fa-remove"></i>
+        <i class="fa fa-remove text-black"></i>
       </a>
       <img src="images/avatar_g2.jpg" style="width:45%;" class="rounded-4"><br><br>
-      <h4><b>PORTFOLIO</b></h4>
+      <h4 style="height: 30px"><b>PORTFOLIO</b></h4>
       <p class="text-grey">Template by W3.CSS</p>
     </div>
     <div class="w3-bar-block">
@@ -49,7 +51,7 @@
     title="close side menu" id="myOverlay"></div>
 
   <!--START PAGE CONTENT! -->
-  <div class="main" >
+  <div class="main">
     <!--start Header -->
     <header id="portfolio">
       <a href="#"><img src="images/avatar_g2.jpg" style="width:65px;"
@@ -61,35 +63,39 @@
           <span class="margin-right-16">Filter:</span>
           <button class="button-black">ALL</button>
           <button class="button-white"><i class="fa fa-diamond margin-right-16"></i>Design</button>
-          <button class="button-white w3-hide-small"><i class="fa fa-photo margin-right-16"></i>Photos</button>
-          <button class="button-white w3-hide-small"><i class="fa fa-map-pin margin-right-16"></i>Art</button>
+          <button id="photo" class="button-white w3-hide-small"><i
+              class="fa fa-photo margin-right-16"></i>Photos</button>
+          <button id="art" class="button-white w3-hide-small"><i class="fa fa-map-pin margin-right-16"></i>Art</button>
         </div>
       </div>
     </header>
     <!--end Header -->
-    
+
     <!--start card -->
-      
+
     <div class="row row-margin ">
       <div class="col-md-4 third w3-container margin-bottom-16">
         <img src="images/mountains.jpg" alt="Norway" style="width:100%" class="hover-opacity">
         <div class="w3-container white">
           <p class="margin-15-0"><b>Lorem Ipsum</b></p>
-          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 third w3-container margin-bottom-16">
         <img src="images/lights.jpg" alt="Norway" style="width:100%" class="hover-opacity">
         <div class="w3-container white">
           <p class="margin-15-0"><b>Lorem Ipsum</b></p>
-          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 third w3-container">
         <img src="images/nature.jpg" alt="Norway" style="width:100%" class="hover-opacity">
         <div class="w3-container white">
           <p class="margin-15-0"><b>Lorem Ipsum</b></p>
-          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
 
@@ -97,21 +103,24 @@
         <img src="images/p1.jpg" alt="Norway" style="width:100%" class="hover-opacity">
         <div class="w3-container white">
           <p class="margin-15-0"><b>Lorem Ipsum</b></p>
-          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 third w3-container margin-bottom-16">
         <img src="images/p2.jpg" alt="Norway" style="width:100%" class="hover-opacity">
         <div class="w3-container white">
           <p class="margin-15-0"><b>Lorem Ipsum</b></p>
-          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 third w3-container margin-bottom-16">
         <img src="images/p3.jpg" alt="Norway" style="width:100%" class="hover-opacity">
         <div class="w3-container white">
           <p class="margin-15-0"><b>Lorem Ipsum</b></p>
-          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
       </div>
     </div>
@@ -128,10 +137,10 @@
         <a href="#" class="page_bar-item button ">»</a>
       </div>
     </div>
-     <!--end Pagination -->
+    <!--end Pagination -->
 
-     <!--start Images of Me -->
-     <div class="row row-margin padding-16-0" id="about">
+    <!--start Images of Me -->
+    <div class="row row-margin padding-16-0" id="about">
       <div class="col-md-6">
         <img src="images/avatar_g.jpg" alt="Me" style="width:100%">
       </div>
@@ -139,13 +148,17 @@
         <img src="images/me2.jpg" alt="Me" style="width:100%">
       </div>
     </div>
-    <!--end Images of Me --> 
-    
-    <div class="w3-container padding-large margin-bottom-32 about-me" >
+    <!--end Images of Me -->
+
+    <div class="w3-container padding-large margin-bottom-32 about-me">
       <h4><b>About Me</b></h4>
-      <p class="margin-15-0">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    
-      
+      <p class="margin-15-0">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an
+        interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+        Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
+        gravida diam non fringilla.</p>
+
+
       <h4>Technical Skills</h4>
       <!-- Progress bars / Skills -->
       <p class="about-p margin-15-0">Photography</p>
@@ -161,13 +174,13 @@
         <div class="w3-container dark-grey padding-8-16 text-center" style="width:80%">80%</div>
       </div>
       <p class="margin-15-0">
-        <button class=" button dark-grey padding-large margin-top-16 margin-bottom-16 w3-margin-bottom">
+        <button class=" button dark-grey padding-large margin-top-16 margin-bottom-16">
           <i class="fa fa-download margin-right" style="
           margin-right: 16px"></i>Download Resume
         </button>
       </p>
-   
-      
+
+
       <h4>How much I charge</h4>
       <!-- Pricing Tables -->
       <div class="row row-padding pricing-table" style="margin:0 -16px">
@@ -187,7 +200,7 @@
             </li>
           </ul>
         </div>
-        
+
         <div class="col-md-4 third margin-bottom-16">
           <ul class="price-ul text-center opacity-60 hover-opacity-off">
             <li class="teal li-title  padding-32-0">Pro</li>
@@ -204,7 +217,7 @@
             </li>
           </ul>
         </div>
-        
+
         <div class="col-md-4 third margin-bottom-16">
           <ul class="price-ul text-center opacity-60 hover-opacity-off">
             <li class="b-li-title li-title  padding-32-0">Premium</li>
@@ -224,15 +237,112 @@
       </div>
     </div>
 
+    <!-- end price table -->
+
+    <!--start Contact Section -->
+    <div class="w3-container padding-large grey contact">
+      <h4 id="contact"><b>Contact Me</b></h4>
+      <div class="row row-padding text-center" style="margin:0 -16px">
+        <div class="col-md-4 third dark-grey">
+          <p class="margin-15-0"><i class="fa fa-envelope xxlarge text-light-grey"></i></p>
+          <p class="margin-15-0">email@email.com</p>
+        </div>
+        <div class="col-md-4 third teal">
+          <p class="margin-15-0"><i class="fa fa-map-marker xxlarge text-light-grey"></i></p>
+          <p class="margin-15-0">Chicago, US</p>
+        </div>
+        <div class=" col-md-4 third dark-grey">
+          <p class="margin-15-0"><i class="fa fa-phone xxlarge text-light-grey"></i></p>
+          <p class="margin-15-0">512312311</p>
+        </div>
+      </div>
+
+      <hr class="opacity-60">
+      <form action="#" target="">
+        <div class="section">
+          <label>Name</label>
+          <input class="input" type="text" name="Name" required="">
+        </div>
+        <div class="section">
+          <label>Email</label>
+          <input class="input" type="text" name="Email" required="">
+        </div>
+        <div class="section">
+          <label>Message</label>
+          <input class="input" type="text" name="Message" required="">
+        </div>
+        <button type="submit" class="button button-black margin-bottom-16"><i
+            class="fa fa-paper-plane margin-right-16"></i>Send Message</button>
+      </form>
+    </div>
+    <!--end Contact Section -->
+
+    <!--start Footer -->
+    <footer class="w3-container padding-32-0 dark-grey">
+      <div class="row row-padding">
+        <div class="col-md-4 third">
+          <h3>FOOTER</h3>
+          <p class="margin-15-0">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue
+            gravida diam non fringilla.</p>
+          <p class="margin-15-0">Powered by <a href="#" class=" text-decoration-underline text-white"
+              target="">Jaydip</a></p>
+        </div>
+
+        <div class="col-md-4 third">
+          <h3>BLOG POSTS</h3>
+          <ul class="">
+            <li class="padding-16" style="border-bottom: 1px solid #ddd;">
+              <img src="images/workshop.jpg" class="left margin-right-16" style="width:50px">
+              <span class="large">Lorem</span><br>
+              <span>Sed mattis nunc</span>
+            </li>
+            <li class="padding-16">
+              <img src="images/gondol.jpg" class="left margin-right-16" style="width:50px">
+              <span class="large">Ipsum</span><br>
+              <span>Praes tinci sed</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 third">
+          <h3>POPULAR TAGS</h3>
+          <p class="margin-15-0">
+            <span class="tag color-black margin-bottom-16">Travel</span> <span
+              class="tag grey small margin-bottom-16">New York</span> <span
+              class="tag grey small margin-bottom-16">London</span>
+            <span class="tag grey small margin-bottom-16">IKEA</span> <span
+              class="tag grey small margin-bottom-16">NORWAY</span> <span
+              class="tag grey small margin-bottom-16">DIY</span>
+            <span class="tag grey small margin-bottom-16">Ideas</span> <span
+              class="tag grey small margin-bottom-16">Baby</span> <span
+              class="tag grey small margin-bottom-16">Family</span>
+            <span class="tag grey small margin-bottom-16">News</span> <span
+              class="tag grey small margin-bottom-16">Clothing</span> <span
+              class="tag grey small margin-bottom-16">Shopping</span>
+            <span class="tag grey small margin-bottom-16">Sports</span> <span
+              class="tag grey small margin-bottom-16">Games</span>
+          </p>
+        </div>
+
+      </div>
+    </footer>
+    <div style="background-color:black" class="text-center text-white  padding-24-0">Powered by <a href="#"
+        title="Jaydip" target="" class="hover-opacity text-white">w3.css</a></div>
+
+    <!--end Footer -->
+
+
+
+
+
+
+
+
+
 
   </div>
   <!--END PAGE CONTENT! -->
-
-
-
-
-
-
   <script>
     // Script to open and close sidebar
     function w3_open() {
